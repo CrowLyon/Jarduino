@@ -1,0 +1,13 @@
+rapport de la séance du 13/12/2019:
+
+Pendant cette séance, j'ai réfléchi aux algorythmes pour le projet: l'algorythme pour le contrôle des chemins de LED et celui pour le
+contrôle de la fontaine. J'ai dû résoudre le problème du choix du chemin en bluetooth. En effet, nous avons plusieurs chemins à allumer
+ou éteindre selon le choix de l'utilisateur. Donc j'ai décidé d'utiliser un switch qui permet de créer des cas et selon les cas choisis 
+un certain nombre de chemins de LED s'allume ou s'éteigne. Par contre, je n'ai traité que les LED individuelles au lieu des bandes de LED
+RGB qui ont un fonctionnement un peu plus complexe. Donc, je m'occuperai de ce cas pour la prochaine séance en adaptant mon code à ce type
+de LED. J'ai également traité l'algorythme pour la pompe. Le problème était de savoir si on pouvait contrôler la pompe par PWM pour avoir
+une fontaine avec un débit réglable mais j'ai regardé avec achraf les différentes possibilités de composants électroniques pour le contrôle
+de la pompe et nous avons vu que le transistor permettait le contrôle de la pompe par un signal PWM. Donc j'ai créé la base du code pour
+faire cela en prenant en compte le bluetooth qui permettra à l'utilisateur de contrôler la puissance de la pompe. Ce code devra être 
+testé sur la pompe lors des prochaines séances. Les tâches à effectuer pour la prochaine séance seront les tests sur les LED et réfléchir 
+sur les effets de couleurs des chemins et sur une amelioration du contrôle de la fontaine si possible à la fin de la séance.
