@@ -1,0 +1,40 @@
+Avec la préparation des algorythmes et du début de programme de la séance 1, j'ai pu tester mon code sur des bandes de LED test. J'avais
+2 bandes de LED que j'ai branché séparément pour pouvoir les commander. Le programme consiste à allumer une bande de LED que l'utilisateur
+voudra allumer avec une connexion bluetooth. On utilise un Pad de l'application Bluetooth Electronics qui allume ou éteint les LED selon
+que l'on appuie sur un des boutons du Pad. Par exemple, si vous appuyer une fois sur le bouton haut du Pad vous allumez une bande de LED
+specifique et si vous appuyez de nouveau sur le bouton haut vous eteignez la bande. J'ai eu un problème avec la fréquence d'envoi des 
+informations c'est à dire que cela ne fonctionnait que certaines fois car le programme n'obtenait pas l'information. Donc j'ai ajouté
+une boucle qui ne fait rien mais attend 4s avant de lancer ma fonction chemins_en_action(). Cela a permit que l'envoi d'informations 
+fonctionne à chaque appui sur le bouton. 
+Ensuite, j'ai ajouté dans ma fonction une portion de code qui permet grâce à des sliders de changer la couleur des LED quand elles sont
+en fonction. Il y a 3 sliders qui incrémente ou décrémente de 0 à 255 les 3 couleurs: rouge, vert, bleu. Cela permet à l'utilisateur de
+contrôler la couleur des LED sur son téléphone. Puis j'ai testé quelques effets que l'on pouvait faire sur les chemins comme allumer les LED une par une sur la bande ou en allumer
+une sur deux. Ce sont des effets que l'on pourra mettre à la disposition de l'utilisateur pour qu'il puisse avoir plus de contrôle. 
+D'ailleurs, je dois faire un effet pour la prochaine séance qui consiste à contrôler le chemin pour qu'une seule LED soit allumer mais on 
+a l'impression de controler un personnage car la lumiere se déplace sur tous les chemins comme un personnage qui se deplacerait dans le
+jardin et que l'utilisateur pourrait contrôler. De plus, il faut que je détermine les dimensions des chemins qui seront dans le jardin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
