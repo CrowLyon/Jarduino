@@ -1,0 +1,9 @@
+J'ai construit le programme dont j'avais parle dans mon precedent rapport qui permettait de donner l'illusion d'un deplacement de
+personnnage. Je peux maintenant controler l'avancement d'un pseudo personnage sous la forme d'une LED qui se deplace de gauche à droite ou
+de haut en bas. 
+De plus j'ai du ajoute des effets comme le fait que le personnage traverse la fontaine pour aller de l'autre cote grace à un arret des LED
+puis la premiere LED de l'autre bande s'allume. Cela donne l'illusion que le personnage a traverse la fontaine. 
+Les problemes à venir sont le fait de pouvoir passer du mode haut en bas au mode de deplacement gauche à droite. Je vais devoir utiliser
+une variable qui represente le moment où le personnage est à une intersection. Le programme doit etre egalement optimise pour le rendre
+moins coûteux en memoire et plus simple à comprendre. Pour la prochaine seance je dois ameliorer ce programme en ajoutant des 
+fonctionnalites dont je dois encore reflechir.
